@@ -1,0 +1,30 @@
+.detail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.detail-container img {
+  width: 100px;
+  height: 100px;
+}
+
+.detail-container div[data-role="controlgroup"] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+
+
