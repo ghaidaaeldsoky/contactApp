@@ -152,7 +152,7 @@ function showContactDetails(contactId) {
         $("#contact-phone").text(contact.phone);
         $("#contact-email").text(contact.email);
         $("#contact-gender").text(contact.gender);
-        $("#contact-img").attr("src", `./imgs/${contact.gender.trim().toLowerCase() === 'female' ? 'woman' : 'man'}.png`);
+        $("#contact-img").attr("src", `./imgs/${contact.gender === 'female' ? 'woman' : 'man'}.png`);
 
         $("#deleteContactBtn").attr("data-id", contactId);
         $("#editContactBtn").attr("data-id", contactId);
